@@ -1,0 +1,191 @@
+.header-color {
+  background: #355C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.avatar-img {
+  height: 200px;
+  padding-top: 5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.banner-text {
+  background-color: thistle;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.banner-text h1 {
+  font-size: 65px;
+  font-weight: bolder;
+  font-family: 'Oswald';
+  color: darkgray;
+  text-align: center;
+}
+.banner-text hr {
+  border-top: 6px dotted darkgray;
+  width: 35%;
+  margin: auto;
+  text-align: center;
+}
+.banner-text p {
+  font-size: 25px;
+  font-family: 'Niramit';
+  padding: 1em;
+  color: darkgray;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-icons i {
+    color: darkgray;
+    font-size: 5em;
+    padding: 8px;
+}
+
+.projects-grid {
+  display: flex;
+}
+
+.contact-body {
+  margin: auto;
+  background: #355C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding: 2em;
+}
+
+.contact-grid {
+  width: 90%;
+  height: 500%;
+  justify-content: center;
+  text-align: center;
+  background: url(https://images.unsplash.com/photo-1462583039899-e1b41cd2067d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=394a8b7e823976031fee7b6a7afc7b4d&w=1000&q=80);
+  color: lavender;
+  border: 2px solid thistle;
+  margin: auto;
+}
+
+.contact-grid h2 {
+  font-family: 'Oswald', serif;
+  height: 1%;
+
+}
+
+.contact-grid p {
+  font-family: 'Niramit', serif;
+  font-size: 25px;
+  font-weight:normal;
+}
+
+.contact-grid hr {
+  border-top: 6px dotted lavender;
+  width: 55%;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-list i {
+  font-size: 50px;
+  padding-right: 5rem;
+  color: lavender;
+}
+
+.bgweb {
+  background: url("website.png");
+  object-fit: cover;
+  background-size: auto;
+  background-size: 550px 170px;
+  background-repeat: no-repeat;
+}
+
+.bgwodric {
+  background: url("Wodric.png");
+  object-fit: cover;
+  background-size: auto;
+  background-size: 550px 170px;
+  background-repeat: no-repeat;
+}
+
+.bgapp {
+  background: url("logo.png");
+  object-fit: cover;
+  background-size: auto;
+  background-size: 550px 170px;
+  background-repeat: no-repeat;
+}
+
+.bgstuda {
+  background: url("studyaholic.jpg");
+  object-fit: cover;
+  background-size: auto;
+  background-size: 550px 170px;
+  background-repeat: no-repeat;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.centerText {
+  text-align: center;
+  font-size: 56px;
+  color: lavender;
+  font-family: 'Oswald', serif;
+  font-weight:bold;
+}
+
+.aboutMe {
+  text-align: center;
+  font-size: 26px;
+  color: black;
+  font-family: 'Niramit', serif;
+  font-weight:bolder;
+}
+
+.resume-left {
+  background: thistle;
+  color: black;
+}
+
+.resume-right {
+  background: thistle;
+  color: darkslategrey;
+}
+
+.skillsInfo {
+  font-size: 16px;
+  color: black;
+  font-family: 'Niramit', serif;
+  font-weight:lighter;
+}
+
+.hrAlign {
+  width: 50%;
+  margin-left:170px;
+}
